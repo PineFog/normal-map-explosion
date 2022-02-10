@@ -1,0 +1,15 @@
+[package]
+name = "normal-map-explosion"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wgpu = "0.12.0"
+winit = "0.26.1"
+image = "0.24.0"
+glam = { version = "0.19.0", features = [ "bytemuck" ] }
+bytemuck = { version = "1.7.3", features = [ "derive" ] }
+futures = "0.3.19"
+crevice = { version = "0.8.0", features = [ "glam" ] }
